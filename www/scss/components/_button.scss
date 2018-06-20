@@ -1,0 +1,27 @@
+/*------------------------------------------*/
+/*  BUTTONS
+/*------------------------------------------*/
+.btn {
+  position: relative;
+  display: inline-block;
+  // width: ;
+  // font-weight: ;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  user-select: none;
+  // border: 0;
+  // padding: ;
+  // font-family: $;
+  // font-size: ;
+  // line-height: 1;
+  // font-weight: $;
+  // border-radius: ;
+  // color: ;
+  transition: background-color 0.15s ease-in-out;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
