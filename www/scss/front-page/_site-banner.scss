@@ -1,0 +1,63 @@
+.site-banner {
+  background-color: #e1e2e5;
+
+  @media (min-width: 820px) {
+    background-color: #40c8f4;
+  }
+  
+
+  .container {
+    position: relative;
+    min-height: 104px;
+    padding: 108px 0 104px 0;
+    background:
+      url(../img/bgr_right.png) bottom right no-repeat,
+      url(../img/bgr_left_long.png) top left -18px no-repeat;
+    background-size: auto;
+
+    @media (min-width: 680px) {
+      padding-bottom: 0;
+      background-position: top right, top left -18px;
+    }
+
+    @media (min-width: 820px) {
+      padding-top: 25px;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    background-color: $mainViolet;
+
+    @media (min-width: 820px) {
+      max-width: 320px;
+      margin-left: 33.26%;
+      margin-right: 0;
+      background-color: transparent;
+    }
+
+    h1 {
+      padding: 15px;
+      font-weight: bold;
+      font-family: $secondFont;
+      font-size: 1.875rem;
+      line-height: 1;
+      color: #fff;
+
+      @media (min-width: 820px) {
+        padding: 0;
+        color: $mainBlue;
+      }
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    @media (min-width: 680px) {
+      top: 15px;
+    }
+  }
+}

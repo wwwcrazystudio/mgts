@@ -1,0 +1,10 @@
+.main {
+
+  &--home {
+    padding: 0 0 35px 0;
+
+    @media (min-width: 576px) {
+      padding-top: 30px;
+    }
+  }
+}

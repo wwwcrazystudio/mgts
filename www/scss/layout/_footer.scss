@@ -1,3 +1,71 @@
 /*------------------------------------------*/
 /*  FOOTER
 /*------------------------------------------*/
+.site-footer {
+
+  &__module-1 {
+    padding: 40px 0 15px 0;
+    color: #fff;
+    background-color: $mainBlue;
+
+    @media (max-width: 767px) {
+      padding-bottom: 40px;
+    }
+  }
+
+  &__info,
+  &__contacts,
+  &__links {
+    padding-left: 48px;
+    font-size: 0.75rem;
+  }
+
+  &__info {
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__contacts {
+
+    @media (max-width: 767px) {
+      margin-bottom: 50px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__socials {
+    a {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 1.125rem;
+    }
+  }
+
+  &__module-2 {
+    padding: 18px 0 18px 34px;
+    color: #fff;
+    background-color: $mainViolet;
+
+    @media (min-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  &__links-logo {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  &__links-link {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+}

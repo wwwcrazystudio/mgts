@@ -1,0 +1,30 @@
+.tagline {
+  border-bottom: 10px solid #7961ab;
+  background-color: $mainViolet;
+
+  @media (min-width: 576px) {
+    border-bottom: 0;
+  }
+
+  .container {
+    min-height: 74px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+
+    @media (min-width: 820px) {
+      background: url(../img/hands.png) top left 35px no-repeat;
+      background-size: auto;
+    }
+  }
+
+  &__text {
+    max-width: 490px;
+    font-family: $secondFont;
+    font-size: 0.875rem;
+    color: #fff;
+
+    @media (min-width: 820px) {
+      margin-left: 33.26%;
+    }
+  }
+}

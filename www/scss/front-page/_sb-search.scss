@@ -1,0 +1,107 @@
+.sb-search {
+  display: inline-block;
+	position: relative;
+	width: 0%;
+	min-width: 45px;
+  height: 30px;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+  -webkit-backface-visibility: hidden;
+  
+  @media (min-width: 768px) {
+    margin-right: 65px;
+  }
+}
+
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	z-index: 10;
+	padding: 6px 26px 6px 6px;
+	font-family: inherit;
+	font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+  cursor: pointer;
+  
+  @media (min-width: 768px) {
+    right: 15px;
+  }
+}
+
+.sb-search-submit {
+  opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #fff;
+	z-index: 90;
+	font-size: 16px;
+	font-family: 'FontAwesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+	content: "\f002";
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+  width: 156px;
+
+  @media (min-width: 500px) {
+    width: 300px;
+  }
+  
+  @media (min-width: 850px) {
+    width: 560px;
+  }
+}
+
+.sb-search.sb-search-open .sb-search-input {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	color: #fff;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}

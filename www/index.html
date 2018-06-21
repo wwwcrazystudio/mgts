@@ -7,12 +7,215 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header class="site-header">
+      <div class="site-header__brand">
+        <div class="container">
+          <div class="company-logo company-logo--header">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+          </div>
+    
+          <div class="site-header__box clearfix">
+            <div id="sb-search" class="sb-search">
+              <form>
+                <input class="sb-search-input" type="search" value="" name="search" id="search">
+                <input class="sb-search-submit" type="submit" value="">
+                <span class="sb-icon-search"></span>
+              </form>
+            </div>
 
+            <a href="#" class="site-map">
+              <i class="fa fa-sitemap" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div><!-- .site-header__brand end -->
 
+      <div class="site-header__navigation">
+        <div class="container">
+          <div class="site-header__navigation-issue">
+            <span>№6-7 АПРЕЛЬ 2018</span>
+          </div>
+          
+          <div class="site-header__menu-icon">
+            <div class="site-header__menu-icon__middle"></div>
+          </div>
+
+          <nav class="nav nav--primary">
+            <ul>
+              <li><a href="#">НОВОСТИ</a></li>
+              <li><a href="#">НА СВЯЗИ</a></li>
+              <li><a href="#">КОМАНДА</a></li>
+              <li><a href="#">РАЗВИТИЕ</a></li>
+              <li><a href="#">СПОРТ</a></li>
+              <li><a href="#">ИСТОРИЯ УСПЕХА</a></li>
+              <li><a href="#">ДЛЯ СВОИХ</a></li>
+              <li><a href="#">ДОБРОЕ ДЕЛО</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-banner">
+      <div class="container">
+        <div class="site-banner__title">
+          <h1>Люди, которые<br>
+            делают мир добрее
+          </h1>
+        </div>
+
+        <div class="site-banner__img">
+          <img src="img/team.png" class="img-top" alt="">
+        </div>
+      </div><!-- .container end -->
+    </div><!-- .site-banner end -->
+
+    <div class="tagline">
+      <div class="container">
+        <p class="tagline__text">
+          Лучше самая малая помощь, чем огромное сочувствие. Лучше небольшое
+          дело, чем совершенное бездействие. В путь маленьких шагов и больших
+          добрых дел отправился волонтерский отряд МГТС.
+        </p>
+      </div><!-- .container end -->
+    </div>
+
+    <main class="main main--home">
+      <div class="container">
+        <div class="row row--b-margin">
+
+          <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0">
+            <article class="post post--large">
+              <div class="post-thumbnail">
+                <img src="img/posts/man-1.jpg" alt="">
+              </div>
+              <p class="post-meta"><a href="#">новости</a></p>
+              <h3 class="post-title">
+                <a href="#">К команде МГТС присоединился
+                    Алексей Назаров в должности
+                    советника генерального директора</a>
+              </h3>
+            </article>
+          </div>
+
+          <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0">
+            <article class="post post--large">
+              <div class="post-thumbnail">
+                <img src="img/posts/man-2.jpg" alt="">
+              </div>
+              <p class="post-meta"><a href="#">команда</a></p>
+              <h3 class="post-title">
+                <a href="#">Департамент клиентского сервиса –
+                    такое название получило новое
+                    подразделение МГТС</a>
+              </h3>
+            </article>
+          </div>
+        </div><!-- .row end -->
+
+        <div class="row justify-content-center">
+          <div class="col-1-3">
+            <article class="post post--small">
+              <div class="post-thumbnail">
+                <img src="img/posts/img-1.jpg" alt="">
+              </div>
+              <h3 class="post-title">
+                <a href="#">ВНУТРЕННИЕ 
+                    КОММУНИКАЦИИ МГТС:
+                    БУДУЩЕЕ - СЕЙЧАС!</a>
+              </h3>
+              <p class="post-excerpt">
+                Компания работает эффективно, когда силы, творческий потенциал и энтузиазм всех сотрудников единонаправлены.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-1-3">
+            <article class="post post--small">
+              <div class="post-thumbnail">
+                <img src="img/posts/img-2.jpg" alt="">
+              </div>
+              <h3 class="post-title"><a href="#">БУДЬТЕ ЗДОРОВЫ!</a></h3>
+              <p class="post-excerpt">
+                Мы спросили у вас, каким должно быть медицинское обслуживание нашей команды. Услышали ваши пожелания и сделали выводы.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-1-3">
+            <article class="post post--small">
+              <div class="post-thumbnail">
+                <img src="img/posts/img-3.jpg" alt="">
+              </div>
+              <h3 class="post-title">
+                <a href="#">СПОРТ - ДЛЯ КАЖДОГО<br>
+                  В КОМАНДЕ</a>
+              </h3>
+              <p class="post-excerpt">
+                  Здоровье команды – приоритет МГТС. Вот почему в компании продолжают появляться новые
+                  спортивные направления.
+              </p>
+            </article>
+          </div>
+
+        </div>
+      </div><!-- .container end -->
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__module-1">
+        <div class="container">
+          <div class="company-logo company-logo--footer">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+          </div>
+  
+          <div class="row">
+            <div class="col-sm-6 col-md-4 site-footer__info">
+              <p>МТ №6–7 апрель 2018. Тираж 999 экз.</p>
+              <p>
+                Данное издание является информационным
+                продуктом, выпускаемым для публичного
+                акционерного общества «Московская
+                городская телефонная сеть»
+              </p>
+            </div>
+  
+            <div class="col-md-4 site-footer__contacts">
+              <p>
+                Руководитель проекта: Светлана Понкратова,
+                <a href="mailto:s.v.ponkratova@mgts.ru">s.v.ponkratova@mgts.ru</a>
+              </p>
+              <p>Мы в социальных сетях:</p>
+              <div class="site-footer__socials">
+                <a href="#" target="_blank" title="Вконтакте"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" target="_blank" title="Одноклассники"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-md-4 site-footer__links">
+              <img src="img/LP_Logo.png" class="site-footer__links-logo" alt="логотип людиpeople">
+              <br>
+              <p class="site-footer__links-link"><a href="www.vashagazeta.com" target="_blank">www.vashagazeta.com</a></p>
+  
+              <p><a href="#" class="site-footer__links-agreement">Пользовательское соглашение</a></p>
+            </div>
+          </div><!-- .row end -->
+        </div>
+      </div>
+
+      <div class="site-footer__module-2">
+        <div class="container">
+          <p class="site-footer__text">&copy; 2018, ПАО МГТС</p>
+        </div><!-- .container end -->
+      </div>
+    </footer>
 
     <!--[if lt IE 9]>
     <script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -23,9 +226,9 @@
     
     <!-- Scripts -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/classie.js"></script>
+		<script src="js/uisearch.js"></script>
     <script src="js/common.js"></script>
   </body>
 </html>

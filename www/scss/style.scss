@@ -13,8 +13,8 @@
 
 // 3. Base stuff
 @import
-  'base/base',
   'base/fonts',
+  'base/base',
   'base/typography',
   'base/helpers';
 
@@ -29,5 +29,11 @@
 
 // 6. Page-specific styles
 @import
-  'pages/hero';
+  'front-page/nav',
+  'front-page/sb-search',
+  'front-page/site-banner',
+  'front-page/company-logo',
+  'front-page/tagline',
+  'front-page/main',
+  'front-page/post';
 
